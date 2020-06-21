@@ -8,7 +8,7 @@ import (
 
 	"github.com/container-storage-interface/spec/lib/go/csi"
 
-	"github.com/thecodeteam/csi-nfs/nfs"
+	"github.com/enquier/csi-nfs/nfs"
 )
 
 var (

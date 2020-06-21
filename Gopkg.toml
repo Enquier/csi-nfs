@@ -6,7 +6,7 @@
   branch = "master"
 
 [[constraint]]
-  name = "github.com/thecodeteam/gocsi"
+  name = "github.com/rexray/gocsi"
   version = "0.3.0"
 
 [[constraint]]

@@ -1,1 +1,4 @@
 csi-nfs
+
+#IDE Specific Files
+.idea

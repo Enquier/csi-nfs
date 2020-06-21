@@ -5,7 +5,7 @@ import (
 
 	"github.com/container-storage-interface/spec/lib/go/csi"
 
-	"github.com/thecodeteam/csi-nfs/core"
+	"github.com/enquier/csi-nfs/core"
 )
 
 func (s *service) GetSupportedVersions(

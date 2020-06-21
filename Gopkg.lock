@@ -50,7 +50,7 @@
   revision = "89742aefa4b206dcf400792f3bd35b542998eb3b"
 
 [[projects]]
-  name = "github.com/thecodeteam/gocsi"
+  name = "github.com/rexray/gocsi"
   packages = [
     ".",
     "context",

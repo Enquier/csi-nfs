@@ -5,10 +5,10 @@ package main
 import (
 	"context"
 
-	"github.com/thecodeteam/gocsi"
+	"github.com/rexray/gocsi"
 
-	"github.com/thecodeteam/csi-nfs/provider"
-	"github.com/thecodeteam/csi-nfs/service"
+	"github.com/enquier/csi-nfs/provider"
+	"github.com/enquier/csi-nfs/service"
 )
 
 // main is ignored when this package is built as a go plug-in.

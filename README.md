@@ -1,4 +1,4 @@
-# CSI plugin for NFS [![Build Status](http://travis-ci.org/thecodeteam/csi-nfs.svg?branch=master)]
+# CSI plugin for NFS [![Build Status](http://travis-ci.org/enquier/csi-nfs.svg?branch=master)]
 
 ## Description
 CSI-NFS is a Container Storage Interface
@@ -18,7 +18,7 @@ of `/sbin/mount.nfs` and `/sbin/mount.nfs4` during a `NodeProbe`.
 ## Installation
 CSI-NFS can be installed with Go and the following command:
 
-`$ go get github.com/thecodeteam/csi-nfs`
+`$ go get github.com/enquier/csi-nfs`
 
 The resulting binary will be installed to `$GOPATH/bin/csi-nfs`.
 
@@ -26,8 +26,8 @@ If you want to build `csi-nfs` with accurate version information, you'll
 need to run the `go generate` command and build again:
 
 ```bash
-$ go get github.com/thecodeteam/csi-nfs
-$ cd $GOPATH/src/github.com/thecodeteam/csi-nfs
+$ go get github.com/enquier/csi-nfs
+$ cd $GOPATH/src/github.com/enquier/csi-nfs
 $ go generate && go install
 ```
 
@@ -53,11 +53,11 @@ any of the standard exit signals.
 The CSI specification uses the gRPC protocol for plug-in communication.
 The easiest way to interact with a CSI plugin is via the Container
 Storage Client (`csc`) program provided via the
-[GoCSI](https://github.com/thecodeteam/gocsi) project:
+[GoCSI](https://github.com/rexray/gocsi) project:
 
 ```bash
-$ go get github.com/thecodeteam/gocsi
-$ go install github.com/thecodeteam/gocsi/csc
+$ go get github.com/rexray/gocsi
+$ go install github.com/rexray/gocsi/csc
 ```
 
 Then, have `csc` use the same `CSI_ENDPOINT`, and you can issue commands
@@ -73,7 +73,7 @@ $ csc -e csi.sock -v 0.1.0 identity plugin-info
 "commit"="8b9c33929bc954614f84d687b47dae71891d5514"
 "formed"="Tue, 13 Feb 2018 17:37:15 UTC"
 "semver"="0.1.0+9"
-"url"="https://github.com/thecodeteam/csi-nfs"
+"url"="https://github.com/enquier/csi-nfs"
 ```
 
 Publish an NFS volume to a target path:
@@ -96,7 +96,7 @@ No additional parameters are currently supported/required by the plugin
 
 ## Configuration
 The CSI-NFS plugin is built using the GoCSI package. Please see its
-[configuration section](https://github.com/thecodeteam/gocsi#configuration) for
+[configuration section](https://github.com/rexray/gocsi#configuration) for
 a complete list of the environment variables that may be used to configure this
 plugin
 
@@ -139,5 +139,5 @@ correctly for multi-node writer scenarios (e.g. running `rpc.lockd` for NFSv3)
 
 ## Support
 For any questions or concerns please file an issue with the
-[csi-nfs](https://github.com/thecodeteam/csi-nfs/issues) project or join
+[csi-nfs](https://github.com/enquier/csi-nfs/issues) project or join
 the Slack channel #project-rexray at codecommunity.slack.com.
