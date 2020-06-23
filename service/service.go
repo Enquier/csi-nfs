@@ -8,10 +8,8 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/container-storage-interface/spec/lib/go/csi"
-	"github.com/rexray/gocsi"
-	csictx "github.com/rexray/gocsi/context"
-
 	"github.com/enquier/csi-nfs/core"
+	"github.com/rexray/gocsi"
 )
 
 const (
@@ -60,9 +58,6 @@ func (s *service) BeforeServe(
 		log.WithFields(fields).Infof("configured %s", Name)
 	}()
 
-	if pd, ok := csictx.LookupEnv(ctx, gocsi.EnvVarPrivateMountDir); ok {
-		s.privDir = pd
-	}
 	if s.privDir == "" {
 		s.privDir = defaultPrivDir
 	}

@@ -15,7 +15,6 @@ require (
 	github.com/coreos/go-systemd v0.0.0-20190612170431-362f06ec6bc1 // indirect
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
-	github.com/enquier/csi-nfs v0.1.2
 	github.com/golang/groupcache v0.0.0-20190129154638-5b532d6fd5ef // indirect
 	github.com/google/btree v1.0.0 // indirect
 	github.com/gorilla/websocket v1.4.0 // indirect
@@ -28,11 +27,12 @@ require (
 	github.com/onsi/ginkgo v1.4.0 // indirect
 	github.com/onsi/gomega v1.3.0 // indirect
 	github.com/prometheus/client_golang v0.9.4 // indirect
+	github.com/rexray/gocsi v1.2.1
 	github.com/sirupsen/logrus v1.6.1-0.20200528085638-6699a89a232f
 	github.com/soheilhy/cmux v0.1.4 // indirect
 	github.com/spf13/cobra v0.0.1 // indirect
 	github.com/spf13/pflag v1.0.0 // indirect
-	github.com/thecodeteam/gocsi v0.3.3
+	github.com/thecodeteam/gocsi v0.3.3 // indirect
 	github.com/thecodeteam/gofsutil v0.1.2
 	github.com/thecodeteam/gosync v0.1.0 // indirect
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5 // indirect

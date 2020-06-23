@@ -31,12 +31,6 @@ github.com/coreos/etcd/pkg/types
 ## explicit
 # github.com/dgrijalva/jwt-go v3.2.0+incompatible
 ## explicit
-# github.com/enquier/csi-nfs v0.1.1
-## explicit
-github.com/enquier/csi-nfs/core
-github.com/enquier/csi-nfs/nfs
-github.com/enquier/csi-nfs/provider
-github.com/enquier/csi-nfs/service
 # github.com/gogo/protobuf v1.1.1
 github.com/gogo/protobuf/gogoproto
 github.com/gogo/protobuf/proto
@@ -72,6 +66,7 @@ github.com/golang/protobuf/ptypes/timestamp
 # github.com/prometheus/client_golang v0.9.4
 ## explicit
 # github.com/rexray/gocsi v1.2.1 => github.com/rexray/gocsi v0.3.3
+## explicit
 github.com/rexray/gocsi
 github.com/rexray/gocsi/context
 github.com/rexray/gocsi/middleware/logging
@@ -92,8 +87,6 @@ github.com/sirupsen/logrus
 ## explicit
 # github.com/thecodeteam/gocsi v0.3.3
 ## explicit
-github.com/thecodeteam/gocsi
-github.com/thecodeteam/gocsi/context
 # github.com/thecodeteam/gofsutil v0.1.2
 ## explicit
 github.com/thecodeteam/gofsutil
