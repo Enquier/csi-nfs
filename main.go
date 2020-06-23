@@ -5,7 +5,7 @@ package main
 import (
 	"context"
 
-	"github.com/thecodeteam/gocsi"
+	"github.com/rexray/gocsi"
 
 	"github.com/enquier/csi-nfs/provider"
 	"github.com/enquier/csi-nfs/service"

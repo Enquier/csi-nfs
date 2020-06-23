@@ -53,11 +53,11 @@ any of the standard exit signals.
 The CSI specification uses the gRPC protocol for plug-in communication.
 The easiest way to interact with a CSI plugin is via the Container
 Storage Client (`csc`) program provided via the
-[GoCSI](https://github.com/thecodeteam/gocsi) project:
+[GoCSI](https://github.com/rexray/gocsi) project:
 
 ```bash
-$ go get github.com/thecodeteam/gocsi
-$ go install github.com/thecodeteam/gocsi/csc
+$ go get github.com/rexray/gocsi
+$ go install github.com/rexray/gocsi/csc
 ```
 
 Then, have `csc` use the same `CSI_ENDPOINT`, and you can issue commands
@@ -96,7 +96,7 @@ No additional parameters are currently supported/required by the plugin
 
 ## Configuration
 The CSI-NFS plugin is built using the GoCSI package. Please see its
-[configuration section](https://github.com/thecodeteam/gocsi#configuration) for
+[configuration section](https://github.com/rexray/gocsi#configuration) for
 a complete list of the environment variables that may be used to configure this
 plugin
 

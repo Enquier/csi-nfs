@@ -1,7 +1,7 @@
 package provider
 
 import (
-	"github.com/thecodeteam/gocsi"
+	"github.com/rexray/gocsi"
 
 	"github.com/enquier/csi-nfs/service"
 )

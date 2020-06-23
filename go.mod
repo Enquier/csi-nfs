@@ -1,4 +1,4 @@
-module enquier/csi-nfs
+module github.com/enquier/csi-nfs
 
 go 1.14
 
