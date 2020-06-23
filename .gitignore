@@ -1,1 +1,4 @@
 csi-nfs
+
+#Ignore IDE Specific Files
+.idea

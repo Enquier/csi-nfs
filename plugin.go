@@ -6,8 +6,8 @@ package main
 import "C"
 
 import (
-	"github.com/thecodeteam/csi-nfs/provider"
-	"github.com/thecodeteam/csi-nfs/service"
+	"github.com/enquier/csi-nfs/provider"
+	"github.com/enquier/csi-nfs/service"
 )
 
 ////////////////////////////////////////////////////////////////////////////////
