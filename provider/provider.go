@@ -3,7 +3,7 @@ package provider
 import (
 	"github.com/rexray/gocsi"
 
-	"github.com/enquier/csi-nfs/service"
+	"github.com/logitainer/csi-nfs/service"
 )
 
 // New returns a new CSI Storage Plug-in Provider.

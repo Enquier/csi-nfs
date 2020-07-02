@@ -8,7 +8,7 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/container-storage-interface/spec/lib/go/csi"
-	"github.com/enquier/csi-nfs/core"
+	"github.com/logitainer/csi-nfs/core"
 	"github.com/rexray/gocsi"
 )
 
@@ -24,7 +24,7 @@ const (
 
 // Manifest is the SP's manifest.
 var Manifest = map[string]string{
-	"url":    "https://github.com/enquier/csi-nfs",
+	"url":    "https://github.com/logitainer/csi-nfs",
 	"semver": core.SemVer,
 	"commit": core.CommitSha32,
 	"formed": core.CommitTime.Format(time.RFC1123),
